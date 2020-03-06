@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+   
+}
+
+.main-left {
+    width: 25%;
+   
+}
+
+.main-left .logo {
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 16px;
+    
+}
+
+.main-left .categories {
+    margin: 64px 0;
+}
+
+.categories .item {
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.main-left .item:hover {
+    color: black;
+    background: #ccc;
+}
+
+.categories .item.has-child {
+    color: black;
+}
+
+.icon-down {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(images/icons8-sort-down-16.png);
+}
+
+
+.group-button .item {
+    font-size: 15px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.main-right {
+    width: 75%;
+    margin: 0px 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+
+.top-left {
+    font-size: 24px;
+    
+}
+
+.icon-shopping {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(images/icons8-shopping-cart-24.png);
+    margin-right: 8px;
+}
+.icon-search {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(images/icons8-search-24.png);
+}
+
+.new-arrivals img {
+    width: 100%;
+}
+
+.new-arrivals {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 48px;
+    left: 32px;
+    color: white;
+}
+
+.text1 {
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 32px;
+
+}
+
+.text2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.new-arrivals .button {
+    font-size: 18px;
+    padding: 12px 24px ;
+    background: black;
+    display: inline-block;
+}
+
+.new-arrivals .button:hover {
+    color: black;
+    background: #ccc;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.collections .item {
+    width: 20%;
+    border: 1px solid;
+    height: 250px;
+    margin-bottom: 8px;
+}
