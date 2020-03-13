@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="main">
@@ -15,7 +14,15 @@
             <div class="categories">
                 <div class="item">Shirts</div>
                 <div class="item">Dresses</div>
-                <div class="item has-child">Jeans <span class="icon-down"></span></div>
+                <div class="item has-child">
+                    Jeans <span class="icon-down"></span>
+                </div>
+                <div class="childs hide">
+                    <div class="child-item">Skinny</div>
+                    <div class="child-item">Relaxed</div>
+                    <div class="child-item">Bootcut</div>
+                    <div class="child-item">Straight</div>
+                </div>
                 <div class="item">Jackets</div>
                 <div class="item">Gymwear</div>
                 <div class="item">Blazers</div>
@@ -44,50 +51,64 @@
                 </div>
             </div>
 
+            <div class="collection-number">8 items</div>
+
             <div class="collections">
                 <div class="item">
-                    <img src="images/jeans1.jpg" class="piture">
+                    <div class="img">
+                        <img src="images/jeans1.jpg" class="picture">
+                        <div class="buy-now">Buy now<span class="buy-now-icon"></span></div>
+                    </div>
                     <div class="name">Ripped Skinny Jeans</div>
                     <div class="price">$24.99</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans2.jpg" class="piture">
+                    <img src="images/jeans2.jpg" class="picture">
                     <div class="name">Mega Ripped Jeans</div>
                     <div class="price">$19.99</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans3.jpg" class="piture">
+                    <img src="images/jeans3.jpg" class="picture">
                     <div class="name">Washed Skinny Jeans</div>
                     <div class="price">$20.50</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans4.jpg" class="piture">
+                    <img src="images/jeans4.jpg" class="picture">
                     <div class="name">Ripped Skinny Jeans</div>
                     <div class="price">$24.99</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans2.jpg" class="piture">
+                    <img src="images/jeans2.jpg" class="picture">
                     <div class="name">Mega Ripped Jeans</div>
                     <div class="price">$19.99</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans3.jpg" class="piture">
+                    <img src="images/jeans3.jpg" class="picture">
                     <div class="name">Washed Skinny Jeans</div>
                     <div class="price">$20.50</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans4.jpg" class="piture">
+                    <img src="images/jeans4.jpg" class="picture">
                     <div class="name">Ripped Skinny Jeans</div>
                     <div class="price">$24.99</div>
                 </div>
                 <div class="item">
-                    <img src="images/jeans1.jpg" class="piture">
+                    <img src="images/jeans1.jpg" class="picture">
                     <div class="name">Ripped Skinny Jeans</div>
                     <div class="price">$24.99</div>
                 </div>
             </div>
+
+            <div class="subscribe">
+                <div class="top">Subscribe</div>
+                <div class="lable">To get special offers and VIP treatment:</div>
+                <input type="text" placeholder="Enter e-mail" class="input">
+                <div class="button">Subscribe</div>
+            </div>
             
         </div>
     </div>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
